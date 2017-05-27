@@ -1,0 +1,23 @@
+
+#######################################
+# Syntax Coloring Map for MoodLight
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+MoodLight	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+pattern	KEYWORD2
+range	KEYWORD2
+color	KEYWORD2
+sleep	KEYWORD2
+process	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
