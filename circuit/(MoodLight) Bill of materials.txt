@@ -1,0 +1,28 @@
+Bill of Materials: MoodLight.fzz
+
+/art/meta.humano/circuit design/MoodLight.fzz
+saturday, may 27 2017, 03:02:58
+Assembly List
+
+Label	Part Type	Properties
+IC1	Voltage Regulator	variant -to-220; voltage 5V; package to-220-alt; chip 7805; part # LM7805
+J1	Generic female header - 4 pins	hole size 1.0mm,0.508mm; package THT; row single; pins 4; pin spacing 0.1in (2.54mm); form ♀ (female);
+Micro	Arduino Uno (Rev3)	type Arduino UNO (Rev3)
+Q1	npn-Powertransistor	type NPN; package TO220 [THT]; part # TIP120
+Q2	npn-Powertransistor	type NPN; package TO220 [THT]; part # TIP120
+Q3	npn-Powertransistor	type NPN; package TO220 [THT]; part # TIP120
+R1	220Ω Resistor	tolerance ±5%; package THT; bands 4; resistance 220Ω; pin spacing 400 mil
+R2	220Ω Resistor	tolerance ±5%; package THT; bands 4; resistance 220Ω; pin spacing 400 mil
+R3	220Ω Resistor	tolerance ±5%; package THT; bands 4; resistance 220Ω; pin spacing 400 mil
+V1	DC Power	type dc power supply; voltage 12V 3A
+Shopping List
+
+Amount	Part Type	Properties
+1	Voltage Regulator	variant -to-220; voltage 5V; package to-220-alt; chip 7805; part # LM7805
+1	Generic female header - 4 pins	hole size 1.0mm,0.508mm; package THT; row single; pins 4; pin spacing 0.1in (2.54mm); form ♀ (female);
+1	Arduino Uno (Rev3)	type Arduino UNO (Rev3)
+3	npn-Powertransistor	type NPN; package TO220 [THT]; part # TIP120
+3	220Ω Resistor	tolerance ±5%; package THT; bands 4; resistance 220Ω; pin spacing 400 mil
+1	DC Power	type dc power supply; voltage 12V 3A
+
+Exported with Fritzing 0.9.2- http://fritzing.org 
