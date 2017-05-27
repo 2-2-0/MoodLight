@@ -55,21 +55,27 @@ void loop() {
 void reset () {
   // This function uses random math to set LED strip parameters
   // set the pattern you're going to use
-  int v = random (0, 5);
+  int v = random (1, 7);
   switch (v) {
     case 0:
-      mood_light.pattern (&mood_light.noise);
+      mood_light.pattern (&mood_light.off);
       break;
     case 1:
-      mood_light.pattern (&mood_light.flicker);
+      mood_light.pattern (&mood_light.on);
       break;
     case 2:
-      mood_light.pattern (&mood_light.flash);
+      mood_light.pattern (&mood_light.noise);
       break;
     case 3:
-      mood_light.pattern (&mood_light.rampUp);
+      mood_light.pattern (&mood_light.flicker);
       break;
     case 4:
+      mood_light.pattern (&mood_light.flash);
+      break;
+    case 5:
+      mood_light.pattern (&mood_light.rampUp);
+      break;
+    case 6:
       mood_light.pattern (&mood_light.rampDown);
       break;
   }

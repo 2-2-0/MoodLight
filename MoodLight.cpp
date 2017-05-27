@@ -110,6 +110,12 @@ MoodLight::process () {
 // Master light in order to become an illuminated one...
 
 // PATTERNS
+void MoodLight::off () {
+  _current = 0;
+}
+void MoodLight::on () {
+  _current = _max_range;
+}
 void MoodLight::noise () {
   _current = random (_min_range, _max_range);
 }

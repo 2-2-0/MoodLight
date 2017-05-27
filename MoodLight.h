@@ -45,6 +45,8 @@ class MoodLight {
     process ();
 
     // patterns
+    void off ();
+    void on ();
     void noise ();
     void flicker ();
     void flash ();
