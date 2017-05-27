@@ -5,6 +5,7 @@ MoodLight analog LED strips controller for Arduino compatible devices!
 
 MoodLight is a light weight library that allows you control of analog RGB LED strips easily with a very simple circuit that uses three NPN amp transistors, a voltage regulator and the proper power supply. It should work well with single color strips, as well... just use one channel.
 
+
 ## Usage
 
 First, call the library on the top of your code:
@@ -34,8 +35,6 @@ Finally, call the object inside your loop ():
 ```
 mood_light.process ();
 ```
-
-
 The class is timer based, so you can call process () and then run another batch of commands.
 
 
@@ -56,6 +55,7 @@ Example:
 ```
 MoodLight mood_light (9, 10, 11);
 ```
+
 
 ### Parameters configuration
 ##### Pattern selection
@@ -109,6 +109,7 @@ Example:
 mood_light.color (1.0, 0.5, 0.0); // set color to orange
 ```
 
+
 ##### Sleep time:
 How much time does it take between each change. It uses milliseconds. Use low values for quick operation and high values for slow updates.
 ```
@@ -122,6 +123,7 @@ Example:
 ```
 mood_light.sleep (65);
 ```
+
 
 ### Execution
 Call inside your loop () method to make MoodLight work. You can call this and make other operations in the meantime.
@@ -152,6 +154,10 @@ Currently available patterns include:
 ## Pending work
 - While this works with single color strips, some coded can be optimized for them.
 - Add more patterns.
+
+
+## About the circuit
+The circuit/ directory includes diagram and bill of materials needed to assemble a basic circuit that will allow you to use a 5 meters long RGB strip. It uses a 3V amp. If you're going to use more than that length, you need to recalculate the supply needed and probably change the TIP120 if it's too much current for it.
 
 
 ## Credits
