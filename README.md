@@ -58,7 +58,7 @@ MoodLight mood_light (9, 10, 11);
 
 
 ### Parameters configuration
-##### Pattern selection
+#### Pattern selection
 Picks the pattern method to use for operation. Points directly to a method inside the object you have instantiated.
 ```
 <object_name>.pattern (pointer_to_function);
@@ -75,7 +75,7 @@ mood_light.pattern (&mood_light.noise);
 > Don't forget to use & before the name of the function! That allows it to work as a function pointer.
 
 
-##### Brightness range
+#### Brightness range
 Allows you to set a range of values for the strips to operate. Use byte values (from 0 to 255).
 ```
 <object_name>.range (min_range, max_range);
@@ -93,7 +93,7 @@ mood_light.range (64, 192);
 ```
 
 
-##### Color ratios:
+#### Color ratios:
 Lets you set how much of each channel you want for your pattern. It uses values from 0.0 to 1.0. If you wan't half red, no green and all blue, you'd use 0.5, 0.0, 1.0.
 ```
 <object_name>.color (red_value, green_value, blue_value);
@@ -110,7 +110,7 @@ mood_light.color (1.0, 0.5, 0.0); // set color to orange
 ```
 
 
-##### Sleep time:
+#### Sleep time:
 How much time does it take between each change. It uses milliseconds. Use low values for quick operation and high values for slow updates.
 ```
 <object_name>.sleep (milliseconds);
@@ -167,7 +167,7 @@ Visit [2-2-0.online](http://2-2-0.online) and [github/2-2-0](http://www.github.c
 
 Shoutout to Luis Molina and Antonio Aragón for the head start!
 
-Production made possible with support from Secretaría de Cultura de México, and Centro Nacional de las Artes, and of course tax payers. Thanks a million to you all!
+Production made possible with support from Secretaría de Cultura de México, and Centro Nacional de las Artes, and of course Mexican tax payers. Thanks a million to you all!
 
 
 ## License
