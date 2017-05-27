@@ -3,8 +3,7 @@
 MoodLight analog LED strips controller for Arduino compatible devices!
 
 
-MoodLight is a light weight library that allows you control of analog LED strips easily with a very simple circuit that uses three NPN amp transistors, a voltage regulator and the proper power supply.
-
+MoodLight is a light weight library that allows you control of analog RGB LED strips easily with a very simple circuit that uses three NPN amp transistors, a voltage regulator and the proper power supply. It should work well with single color strips, as well... just use one channel.
 
 ## Usage
 
